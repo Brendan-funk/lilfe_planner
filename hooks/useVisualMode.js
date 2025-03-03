@@ -22,7 +22,7 @@ export function useVisualMode(init){
         tempHistory.pop(mode)
         setHistory((prev) => tempHistory)
         if (tempHistory.length > 1) {
-            setMode((prev) => tempHistory[tempHistory.length-1])
+            setMode((prev) => tempHistory[tempHistory.length-1])    
         }
     }
 }

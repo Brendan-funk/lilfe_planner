@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Itim";
+    src: url('../fonts/Itim-Regular.ttf');
+}
+.body{
+    display: flex;
+    min-height: 850px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #c9f299;
+    align-items: center;
+    color: #088f8f;
+    font-family: Itim;
+    padding-left: 10px;
+}
+.glance{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid blue;
+}
+.budget{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid red;
+}
+.schedule{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
