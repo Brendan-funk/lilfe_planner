@@ -4,6 +4,14 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.page}>
+      <div className={styles.title}>
+        <h1>Life Planner</h1>
+        <nav className={styles.nav}>
+          <button>Schedule</button>
+          <button>Finances</button>
+          <button>Daily Things</button>
+          </nav>
+      </div>
       <main className={styles.main}>
         <Image
           className={styles.logo}
